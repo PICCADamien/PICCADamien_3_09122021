@@ -1,0 +1,10 @@
+.header {
+    background: white;
+    box-shadow: 0px 3px 5px rgb(207, 207, 207);
+
+    &_logo {
+        margin: 0 auto;
+        padding : 8px 0;
+        display: block;
+    }
+}
