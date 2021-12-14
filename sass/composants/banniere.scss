@@ -1,0 +1,16 @@
+.banniere {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10% 15%;
+    background-color: rgb(246, 246, 246);
+
+    &_titre {
+        margin: 0;
+        text-align: center;
+    }
+
+    &_texte {
+        text-align: center;
+    }
+}
