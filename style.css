@@ -377,7 +377,7 @@ template {
 
 .bouton, .bouton2, .bouton1 {
   border-radius: 10px;
-  width: 24px;
+  height: 24px;
   box-shadow: 30px 30px rgba(250, 250, 250, 0.5);
 }
 .bouton:hover, .bouton2:hover, .bouton1:hover {
@@ -386,8 +386,25 @@ template {
 
 .bouton1 {
   background-color: salmon;
+  animation-name: animation-bouton;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
+@keyframes animation-bouton {
+  0% {
+    background-color: salmon;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: green;
+  }
+  100% {
+    background-color: red;
+  }
+}
 .bouton2 {
   background-color: sienna;
 }

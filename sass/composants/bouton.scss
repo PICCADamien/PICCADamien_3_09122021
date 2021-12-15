@@ -1,6 +1,6 @@
 .bouton {
     border-radius: 10px;
-    width: 24px;
+    height: 24px;
     box-shadow: 30px 30px rgba($color: #fafafa, $alpha: 0.5);
     &:hover {
         box-shadow: 25px 25px;
@@ -10,8 +10,17 @@
 .bouton1 {
     @extend .bouton;
     background-color: salmon;
+    animation-name: animation-bouton;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
+@keyframes animation-bouton{
+    0% {background-color: salmon;}
+    25% {background-color: yellow;}
+    50% {background-color: green;}
+    100% {background-color: red;}
 
+}
 .bouton2 {
     @extend .bouton;
     background-color: sienna;
