@@ -1,0 +1,17 @@
+.fonctionnement_block {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(246, 246, 246);
+    width: 90%;
+    height: 50px;
+    border-radius: 18px;
+
+    &_numero {
+        height: 25px;
+        width: 25px;
+        border-radius: 25px;
+        background-color: red;
+        color: white;
+    }
+}
+
